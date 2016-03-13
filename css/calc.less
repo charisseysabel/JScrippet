@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;   
+}
+
+/*
+    base
+*/
+
+.calc {
+    width: 300px;
+    margin: 30px auto;
+    padding: 10px;
+    
+    & > div {
+        margin: 10px auto;   
+    }  
+}
+
+/*
+    components
+*/
+
+
+.display {
+    width: 74%;
+    height: 40px;
+    padding: 10px;
+    float: right;
+    margin: 0;
+    border: 1px solid black;
+}
+
+button {
+    width: calc(95% / 4);
+    padding: 10px;
+    color:#2D1E10;
+    cursor: pointer;
+    border: 1px solid #2D1E10;
+    background-color: #F2EDA2;
+    
+    &.ac {
+        background-color: #EB8445;   
+    }
+    
+    &.zero {
+        width: 49%;   
+    }
+}
+
+/*
+    modules
+*/
+
+main {
+    margin-top: 10%;   
+}

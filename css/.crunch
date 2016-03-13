@@ -1,0 +1,23 @@
+{
+	"files": {
+		"calc.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "calc.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": true
+					}
+				}
+			],
+			"sources": [
+				"calc.less"
+			]
+		}
+	}
+}
