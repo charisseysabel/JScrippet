@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.gallery-container {
+  overflow: hidden;
+  width: 60%;
+  margin: 20px auto;
+}
+.slide-container {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+.slide {
+  position: absolute;
+}
+
+.slide img{
+  width: 100%;
+}
+
+.slide .text {
+  position: absolute;
+  color: #fff;
+  background-color: #7f7f7f;
+  background: rgba(0,0,0,0.5);
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.btn {
+  float: left;
+  margin-top: 150px;
+  position: relative;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/*# sourceMappingURL=slider.css.map */
